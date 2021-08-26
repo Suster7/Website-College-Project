@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Tic Tac Toe</title>
+</head>
+<body>
+    <header>IT59</header>
+    <div class="menu">
+        <ul>
+            <li>
+                <a href="index.html">Home</a>
+            </li>
+            <li>
+                <a href="tictactoe.html">Tic Tac Toe</a>
+            </li>
+            <li>
+                <a href="map.html">Map</a>
+            </li>
+            <li>
+                <a href="cv.html">CV</a>
+            </li>
+            <li>
+                <a href="form.html">Form</a>
+            </li>
+        </ul>
+    </div>
+    <div class="io_title">Tic Tac Toe</div>
+    <div class="first_col">
+        <div class="single_player">
+            <button id="sngPlayer">Single Player</button>
+        </div>
+        <br>
+        <div class="multiplayer">
+            <button id="mltPlayer">Multi Player</button>
+        </div>
+    </div>
+    <div class="second_col">
+        <table id="iksoks_table">
+            <tr>
+                <td class="cell" id="0"></td>
+                <td class="cell" id="1"></td>
+                <td class="cell" id="2"></td>
+            </tr>
+            <tr>
+                <td class="cell" id="3"></td>
+                <td class="cell" id="4"></td>
+                <td class="cell" id="5"></td>
+            </tr>
+            <tr>
+                <td class="cell" id="6"></td>
+                <td class="cell" id="7"></td>
+                <td class="cell" id="8"></td>
+            </tr>
+        </table>
+        <div class="end_game">
+            <div class="text"></div>
+        </div>
+    </div>
+    <div class="third_col">
+        <button id="restart" onclick="startGame()">Restart</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

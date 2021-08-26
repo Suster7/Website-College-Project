@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
+    <title>Iks Oks</title>
+</head>
+<body>
+    <header>IT59</header>
+    <div class="menu">
+        <ul>
+            <li>
+                <a href="index.html">Home</a>
+            </li>
+            <li>
+                <a href="tictactoe.html">Tic Tac Toe</a>
+            </li>
+            <li>
+                <a href="map.html">Map</a>
+            </li>
+            <li>
+                <a href="cv.html">CV</a>
+            </li>
+            <li>
+                <a href="form.html">Form</a>
+            </li>
+        </ul>
+    </div>
+        <div class="cnt">
+         
+         
+          <div class="form">
+            <div class="contact-info">
+              <h3 class="title">Let's get in touch</h3>
+              <p class="text">
+                Need to speak to a leading bespoke software development company?
+                We will respond to all your enquiries, sent via our contact us form, within 1 working day.
+              </p>
+    
+              <div class="info">
+                <div class="information">
+                  <img src="images/location.png" class="icon" alt="" />
+                  <p>Maršala Tita 26, Pivnice</p>
+                </div>
+                <div class="information">
+                  <img src="images/email.png" class="icon" alt="" />
+                  <p>suster.it59.2020@gmail.com</p>
+                </div>
+                <div class="information">
+                  <img src="images/phone.png" class="icon" alt="" />
+                  <p>+381 63 8844190</p>
+                </div>
+              </div>
+    
+              <div class="social-media">
+                <p>Connect with us :</p>
+                <div class="social-icons">
+                  <a href="https://www.facebook.com/miroslavmimi.suster/">
+                    <i class="fab fa-facebook-f"></i>
+                  </a>
+                  <a href="https://www.instagram.com/suster7/">
+                    <i class="fab fa-instagram"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="contact-form">
+              <form method="POST" class="cnct-form">
+                <h3 class="title">Contact us</h3>
+                <div class="input-container">
+                  <input type="" name="name" class="name" />
+                  <label for="Username">Name</label>
+                </div>
+                <div class="input-container">
+                  <input type="" name="email" class="email" />
+                  <label for="email">Email</label>
+                </div>
+                <div class="input-container">
+                  <input type="" name="phone" class="phone" />
+                  <label for="tel">Phone</label>
+                </div>
+                <div class="input-container textarea">
+                  <textarea name="message" class="message"></textarea>
+                  <label for="">Message</label>
+                </div>
+                <input type="button" class="submit" value="Send" onclick="submitForm()"/>
+              </form>
+            </div>
+          </div>
+        </div>
+        <script src="https://smtpjs.com/v3/smtp.js">
+        </script>
+</body>
+</html>
